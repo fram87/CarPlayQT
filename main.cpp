@@ -10,5 +10,6 @@ int main(int argc, char *argv[])
     Bluetooth bt;
     bt.startScan();
     return a.exec();
+    //test
 }
 

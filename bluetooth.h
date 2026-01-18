@@ -21,3 +21,4 @@ private:
     QBluetoothDeviceDiscoveryAgent *discoveryAgent;  // le scanner
 };
 #endif // BLUETOOTH_H
+//test
