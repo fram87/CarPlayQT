@@ -1,0 +1,2 @@
+set(__QT_DEPLOY_TARGET_GitCarPlAyQT_FILE /Users/baptiste/CarPlay/CarPlayQT/build/Qt_6_10_1_for_macOS-Debug/GitCarPlAyQT.app/Contents/MacOS/GitCarPlAyQT)
+set(__QT_DEPLOY_TARGET_GitCarPlAyQT_TYPE EXECUTABLE)

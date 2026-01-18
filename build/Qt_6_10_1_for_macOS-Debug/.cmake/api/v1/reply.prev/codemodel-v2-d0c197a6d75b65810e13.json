@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-3e495ed5d236208a1399.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "GitCarPlAyQT",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "GitCarPlAyQT::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-GitCarPlAyQT-Debug-6ad3487c82b5e84b3cfd.json",
+					"name" : "GitCarPlAyQT",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "GitCarPlAyQT_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-GitCarPlAyQT_autogen-Debug-416563cc2cf0c63bf317.json",
+					"name" : "GitCarPlAyQT_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "GitCarPlAyQT_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-GitCarPlAyQT_autogen_timestamp_deps-Debug-fbd02805812f3bfd8faf.json",
+					"name" : "GitCarPlAyQT_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/baptiste/CarPlay/CarPlayQT/build/Qt_6_10_1_for_macOS-Debug",
+		"source" : "/Users/baptiste/CarPlay/CarPlayQT"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
