@@ -1,0 +1,13 @@
+# ninja log v6
+2	178	7904537337413985	GitCarPlAyQT_autogen/timestamp	a09c7c87a1fd3f27
+2	178	7904537337413985	GitCarPlAyQT_autogen/mocs_compilation.cpp	a09c7c87a1fd3f27
+2	178	7904537337413985	C:/Users/AqmOpti/Documents/CarPLayQT/GitCarPlAyQT/build/klf-Debug/GitCarPlAyQT_autogen/timestamp	a09c7c87a1fd3f27
+2	178	7904537337413985	C:/Users/AqmOpti/Documents/CarPLayQT/GitCarPlAyQT/build/klf-Debug/GitCarPlAyQT_autogen/mocs_compilation.cpp	a09c7c87a1fd3f27
+183	215	7904537337722480	CMakeFiles/GitCarPlAyQT.dir/wifi.cpp.obj	54e26a887d062d32
+184	1010	7904537337732565	CMakeFiles/GitCarPlAyQT.dir/bluetooth.cpp.obj	836653ddbb74c586
+182	1135	7904537337722480	CMakeFiles/GitCarPlAyQT.dir/mainwindow.cpp.obj	4c29e07d44459a21
+180	1170	7904537337702442	CMakeFiles/GitCarPlAyQT.dir/GitCarPlAyQT_autogen/mocs_compilation.cpp.obj	10313cb551a2f0d9
+181	1176	7904537337712453	CMakeFiles/GitCarPlAyQT.dir/main.cpp.obj	b5ddab560f3507d0
+1176	1298	7904537347664772	GitCarPlAyQT.exe	3072b7e0b7d9fdf2
+3	11	7904595802101638	CMakeFiles/clean.additional	baedbe210acaa455
+12	15	7904595802237203	clean	577b940aee94fbd7
