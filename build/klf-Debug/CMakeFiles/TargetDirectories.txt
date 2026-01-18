@@ -1,0 +1,8 @@
+C:/Users/AqmOpti/Documents/CarPLayQT/GitCarPlAyQT/build/klf-Debug/CMakeFiles/GitCarPlAyQT.dir
+C:/Users/AqmOpti/Documents/CarPLayQT/GitCarPlAyQT/build/klf-Debug/CMakeFiles/edit_cache.dir
+C:/Users/AqmOpti/Documents/CarPLayQT/GitCarPlAyQT/build/klf-Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/AqmOpti/Documents/CarPLayQT/GitCarPlAyQT/build/klf-Debug/CMakeFiles/list_install_components.dir
+C:/Users/AqmOpti/Documents/CarPLayQT/GitCarPlAyQT/build/klf-Debug/CMakeFiles/install.dir
+C:/Users/AqmOpti/Documents/CarPLayQT/GitCarPlAyQT/build/klf-Debug/CMakeFiles/install/local.dir
+C:/Users/AqmOpti/Documents/CarPLayQT/GitCarPlAyQT/build/klf-Debug/CMakeFiles/GitCarPlAyQT_autogen_timestamp_deps.dir
+C:/Users/AqmOpti/Documents/CarPLayQT/GitCarPlAyQT/build/klf-Debug/CMakeFiles/GitCarPlAyQT_autogen.dir
