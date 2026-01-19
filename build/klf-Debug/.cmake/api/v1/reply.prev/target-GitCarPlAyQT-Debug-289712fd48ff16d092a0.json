@@ -27,26 +27,26 @@
 		],
 		"files" : 
 		[
-			"C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"C:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
 			"CMakeLists.txt",
-			"C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake",
-			"C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake",
-			"build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/.qtc/package-manager/maintenance_tool_provider.cmake",
-			"C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake",
-			"C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake",
+			"C:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake",
+			"C:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake",
+			"build/klf-Debug/.qtc/package-manager/maintenance_tool_provider.cmake",
+			"C:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake",
+			"C:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake",
 			"C:/Qt/Tools/CMake_64/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake",
-			"C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
-			"C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake",
-			"C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Bluetooth/Qt6BluetoothTargets.cmake",
-			"C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Bluetooth/Qt6BluetoothConfig.cmake",
-			"C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake",
-			"C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake",
-			"C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateTargets.cmake",
-			"C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateConfig.cmake",
-			"C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake",
-			"C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Network/Qt6NetworkTargets.cmake",
-			"C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Network/Qt6NetworkConfig.cmake",
-			"C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6Bluetooth/Qt6BluetoothDependencies.cmake"
+			"C:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
+			"C:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake",
+			"C:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Bluetooth/Qt6BluetoothTargets.cmake",
+			"C:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Bluetooth/Qt6BluetoothConfig.cmake",
+			"C:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake",
+			"C:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake",
+			"C:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateTargets.cmake",
+			"C:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateConfig.cmake",
+			"C:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake",
+			"C:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Network/Qt6NetworkTargets.cmake",
+			"C:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Network/Qt6NetworkConfig.cmake",
+			"C:/Qt/6.10.1/msvc2022_64/lib/cmake/Qt6Bluetooth/Qt6BluetoothDependencies.cmake"
 		],
 		"nodes" : 
 		[
@@ -367,15 +367,23 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always"
+					"fragment" : "-DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd"
+				},
+				{
+					"backtrace" : 28,
+					"fragment" : "-Zc:__cplusplus"
+				},
+				{
+					"backtrace" : 28,
+					"fragment" : "-permissive-"
+				},
+				{
+					"backtrace" : 28,
+					"fragment" : "-utf-8"
 				}
 			],
 			"defines" : 
 			[
-				{
-					"backtrace" : 28,
-					"define" : "MINGW_HAS_SECURE_API=1"
-				},
 				{
 					"backtrace" : 6,
 					"define" : "QT_BLUETOOTH_LIB"
@@ -387,10 +395,6 @@
 				{
 					"backtrace" : 6,
 					"define" : "QT_GUI_LIB"
-				},
-				{
-					"backtrace" : 28,
-					"define" : "QT_NEEDS_QMAIN"
 				},
 				{
 					"backtrace" : 6,
@@ -429,42 +433,42 @@
 			[
 				{
 					"backtrace" : 0,
-					"path" : "C:/Users/AqmOpti/Documents/CarPLayQT/GitCarPlAyQT/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/GitCarPlAyQT_autogen/include"
+					"path" : "C:/Users/AqmOpti/Documents/CarPLayQT/GitCarPlAyQT/build/klf-Debug/GitCarPlAyQT_autogen/include"
 				},
 				{
 					"backtrace" : 28,
 					"isSystem" : true,
-					"path" : "C:/Qt/6.10.1/mingw_64/include/QtCore"
+					"path" : "C:/Qt/6.10.1/msvc2022_64/include/QtCore"
 				},
 				{
 					"backtrace" : 28,
 					"isSystem" : true,
-					"path" : "C:/Qt/6.10.1/mingw_64/include"
+					"path" : "C:/Qt/6.10.1/msvc2022_64/include"
 				},
 				{
 					"backtrace" : 28,
 					"isSystem" : true,
-					"path" : "C:/Qt/6.10.1/mingw_64/mkspecs/win32-g++"
+					"path" : "C:/Qt/6.10.1/msvc2022_64/mkspecs/win32-msvc"
 				},
 				{
 					"backtrace" : 6,
 					"isSystem" : true,
-					"path" : "C:/Qt/6.10.1/mingw_64/include/QtWidgets"
+					"path" : "C:/Qt/6.10.1/msvc2022_64/include/QtWidgets"
 				},
 				{
 					"backtrace" : 6,
 					"isSystem" : true,
-					"path" : "C:/Qt/6.10.1/mingw_64/include/QtGui"
+					"path" : "C:/Qt/6.10.1/msvc2022_64/include/QtGui"
 				},
 				{
 					"backtrace" : 6,
 					"isSystem" : true,
-					"path" : "C:/Qt/6.10.1/mingw_64/include/QtBluetooth"
+					"path" : "C:/Qt/6.10.1/msvc2022_64/include/QtBluetooth"
 				},
 				{
 					"backtrace" : 6,
 					"isSystem" : true,
-					"path" : "C:/Qt/6.10.1/mingw_64/include/QtNetwork"
+					"path" : "C:/Qt/6.10.1/msvc2022_64/include/QtNetwork"
 				}
 			],
 			"language" : "CXX",
@@ -490,11 +494,11 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 0,
-			"id" : "GitCarPlAyQT_autogen::@6890427a1f51a3e7e1df"
+			"id" : "GitCarPlAyQT_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "GitCarPlAyQT_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+			"backtrace" : 0,
+			"id" : "GitCarPlAyQT_autogen::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "GitCarPlAyQT::@6890427a1f51a3e7e1df",
@@ -517,90 +521,95 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-DQT_QML_DEBUG -g",
+				"fragment" : "-DQT_QML_DEBUG /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd",
 				"role" : "flags"
 			},
 			{
-				"fragment" : "-mwindows",
+				"fragment" : "/machine:x64 /debug /INCREMENTAL /subsystem:windows",
 				"role" : "flags"
 			},
 			{
 				"backtrace" : 6,
-				"fragment" : "C:\\Qt\\6.10.1\\mingw_64\\lib\\libQt6Widgets.a",
+				"fragment" : "C:\\Qt\\6.10.1\\msvc2022_64\\lib\\Qt6Widgetsd.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 6,
-				"fragment" : "C:\\Qt\\6.10.1\\mingw_64\\lib\\libQt6Bluetooth.a",
+				"fragment" : "C:\\Qt\\6.10.1\\msvc2022_64\\lib\\Qt6Bluetoothd.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 12,
-				"fragment" : "C:\\Qt\\6.10.1\\mingw_64\\lib\\libQt6Gui.a",
+				"fragment" : "C:\\Qt\\6.10.1\\msvc2022_64\\lib\\Qt6Guid.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 22,
-				"fragment" : "-ld3d11",
+				"fragment" : "d3d11.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 22,
-				"fragment" : "-ldxgi",
+				"fragment" : "dxgi.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 22,
-				"fragment" : "-ldxguid",
+				"fragment" : "dxguid.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 22,
-				"fragment" : "-ld3d12",
+				"fragment" : "d3d12.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 27,
-				"fragment" : "C:\\Qt\\6.10.1\\mingw_64\\lib\\libQt6Network.a",
+				"fragment" : "C:\\Qt\\6.10.1\\msvc2022_64\\lib\\Qt6Networkd.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 28,
-				"fragment" : "C:\\Qt\\6.10.1\\mingw_64\\lib\\libQt6Core.a",
+				"fragment" : "C:\\Qt\\6.10.1\\msvc2022_64\\lib\\Qt6Cored.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 35,
-				"fragment" : "-lmpr",
+				"fragment" : "mpr.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 35,
-				"fragment" : "-luserenv",
+				"fragment" : "userenv.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 45,
-				"fragment" : "-lmingw32",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 45,
-				"fragment" : "C:\\Qt\\6.10.1\\mingw_64\\lib\\libQt6EntryPoint.a",
+				"fragment" : "C:\\Qt\\6.10.1\\msvc2022_64\\lib\\Qt6EntryPointd.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 46,
-				"fragment" : "-lshell32",
+				"fragment" : "shell32.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 56,
-				"fragment" : "-lws2_32",
+				"fragment" : "ws2_32.lib",
 				"role" : "libraries"
 			},
 			{
-				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"backtrace" : 27,
+				"fragment" : "runtimeobject.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 27,
+				"fragment" : "user32.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
 				"role" : "libraries"
 			}
 		],
@@ -664,7 +673,7 @@
 			"backtrace" : 0,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/GitCarPlAyQT_autogen/mocs_compilation.cpp",
+			"path" : "build/klf-Debug/GitCarPlAyQT_autogen/mocs_compilation.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -714,19 +723,19 @@
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/GitCarPlAyQT_autogen/include/ui_mainwindow.h",
+			"path" : "build/klf-Debug/GitCarPlAyQT_autogen/include/ui_mainwindow.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/GitCarPlAyQT_autogen/timestamp",
+			"path" : "build/klf-Debug/GitCarPlAyQT_autogen/timestamp",
 			"sourceGroupIndex" : 3
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/GitCarPlAyQT_autogen/timestamp.rule",
+			"path" : "build/klf-Debug/GitCarPlAyQT_autogen/timestamp.rule",
 			"sourceGroupIndex" : 4
 		}
 	],

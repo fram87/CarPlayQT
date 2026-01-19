@@ -1,23 +1,23 @@
 #include "bluetooth.h"
-#include <QBluetoothDeviceDiscoveryAgent>
-#include <QBluetoothDeviceInfo>
+#include <QDebug>
 
 Bluetooth::Bluetooth(QObject *parent) : QObject(parent)
 {
     discoveryAgent = new QBluetoothDeviceDiscoveryAgent(this);
 
-    // Connecter le signal qui signale qu’un appareil a été trouvé
     connect(discoveryAgent, &QBluetoothDeviceDiscoveryAgent::deviceDiscovered,
             this, &Bluetooth::deviceFound);
 
-    // Connecter le signal qui signale la fin du scan
     connect(discoveryAgent, &QBluetoothDeviceDiscoveryAgent::finished,
             this, &Bluetooth::scanFinished);
+
+    qDebug() << "Bluetooth initialized";
 }
 
 void Bluetooth::startScan()
 {
-    discoveryAgent->start();  // commence le scan
+    qDebug() << "Starting Bluetooth scan...";
+    discoveryAgent->start();
 }
 
 void Bluetooth::deviceFound(const QBluetoothDeviceInfo &info)
@@ -29,7 +29,6 @@ void Bluetooth::deviceFound(const QBluetoothDeviceInfo &info)
 void Bluetooth::scanFinished()
 {
     qDebug() << "Scan terminé !";
-    //test
 }
 
 

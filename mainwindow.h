@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include "bluetooth.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui {
@@ -13,9 +14,13 @@ class MainWindow : public QMainWindow
 {
     Q_OBJECT
 
+
 public:
-    MainWindow(QWidget *parent = nullptr);
+    explicit MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
+
+private:
+    Bluetooth *bluetooth;
 
 private:
     Ui::MainWindow *ui;

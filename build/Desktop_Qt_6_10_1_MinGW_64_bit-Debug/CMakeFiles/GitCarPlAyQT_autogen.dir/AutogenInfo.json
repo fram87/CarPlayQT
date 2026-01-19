@@ -355,6 +355,12 @@
 	"HEADERS" : 
 	[
 		[
+			"C:/Users/AqmOpti/Documents/CarPLayQT/GitCarPlAyQT/accueille.h",
+			"MU",
+			"EWIEGA46WW/moc_accueille.cpp",
+			null
+		],
+		[
 			"C:/Users/AqmOpti/Documents/CarPLayQT/GitCarPlAyQT/bluetooth.h",
 			"MU",
 			"EWIEGA46WW/moc_bluetooth.cpp",
@@ -448,6 +454,11 @@
 	"SETTINGS_FILE" : "C:/Users/AqmOpti/Documents/CarPLayQT/GitCarPlAyQT/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/CMakeFiles/GitCarPlAyQT_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"C:/Users/AqmOpti/Documents/CarPLayQT/GitCarPlAyQT/accueille.cpp",
+			"MU",
+			null
+		],
 		[
 			"C:/Users/AqmOpti/Documents/CarPLayQT/GitCarPlAyQT/bluetooth.cpp",
 			"MU",

@@ -10,15 +10,18 @@ class Bluetooth : public QObject
     Q_OBJECT
 
 public:
-    Bluetooth(QObject *parent = nullptr);
-    void startScan();  // fonction pour lancer le scan
+    explicit Bluetooth(QObject *parent = nullptr);
+
+public slots:
+    void startScan();
 
 private slots:
-    void deviceFound(const QBluetoothDeviceInfo &info);  // appelé quand un appareil est trouvé
-    void scanFinished();  // appelé quand le scan est terminé
+    void deviceFound(const QBluetoothDeviceInfo &info);
+    void scanFinished();
 
 private:
-    QBluetoothDeviceDiscoveryAgent *discoveryAgent;  // le scanner
+    QBluetoothDeviceDiscoveryAgent *discoveryAgent;
 };
-#endif // BLUETOOTH_H
-//test
+
+#endif
+
